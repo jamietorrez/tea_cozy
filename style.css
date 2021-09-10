@@ -1,0 +1,153 @@
+/* universal styles */
+html{    
+    font-family: Helvetica;
+    color:seashell;
+    text-align: center;
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px; 
+    
+}
+body{
+    margin:0;
+    opacity: 0.9;
+}
+h2, h3, h4, h5{
+    margin:0;
+}
+
+/* header section */
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    color:seashell;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    height: 50px;
+    margin-left: 10px;
+}
+header nav{
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+header a{
+    text-decoration: underline;
+    color: seashell;
+    margin: 0 10px;
+}
+header nav ul li{
+    display: inline-flex;
+}
+
+/*main section*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*mission*/
+#mission{
+    margin-top: 69px;
+    width: 1200px;
+    height:700px;
+    background-image: url("resources/img-mission-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+#mission section{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    background-color: black;
+}
+
+/*featured*/
+#featured{
+    width: 1000px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery figure{
+    margin: 10px 0;
+}
+.gallery figcaption{
+    margin: 10px;
+}
+.gallery img{
+    height: 200px;
+    width: 300px;
+    margin: 0 10px;
+}
+
+/*locations*/
+#locations{
+    width :1200px;
+    height: 500px;
+    background-image: url("resources/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#locations h2{
+    background-color: transparent;
+}
+.details{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    opacity: 1;
+}
+.details section{
+    width: 300px;
+    margin: 15px 20px;
+    background-color: black;
+}
+
+/*footer*/
+
+/*contact*/
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 200px;
+}
+
+/*copyright*/
+#copyright{
+    margin-left: 20px;
+    text-align: left;
+}
